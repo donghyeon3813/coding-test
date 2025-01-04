@@ -21,6 +21,8 @@ class Solution {
             if(k > 0){
                 k -= (int)entry.getValue();
                 answer++;
+            }else{
+                return answer;
             }
         }
 
